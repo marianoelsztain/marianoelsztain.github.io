@@ -49,6 +49,7 @@ body {
   padding: 7px;
   background-color: #7180B9;
   float: left;
+  width: 15%;
 }
 .index-list {
   font-size: 1.5em;
@@ -62,6 +63,20 @@ body {
 }
 .hyper-link {
   color: #DFF3E4;
+}
+.blog-link {
+  display: inline-block;
+  width: 15%;
+  margin-left: 5%;
+  margin-right: 5%;
+  vertical-align: center;
+}
+.blog-list {
+  text-align: center;
+  vertical-align: center;
+}
+.blog-logo {
+  width: 100%;
 }
 .button a:hover{
   font-size: 1.6em;
