@@ -1,4 +1,8 @@
 body {
+  padding: 70px;
+  margin: 70px;
+  padding-top: 0px;
+  margin-top: 0px;
   font-family: Abel, sans-serif;
   background-color: #171738;
   color: #DFF3E4;
@@ -8,41 +12,43 @@ body {
   color: #2E1760;
 }
 .main-name {
+  text-align: center;
   font-size: 4em;
   padding: 30px;
-  border-radius: 10px;
   color: #7180B9;
   background-color: #3423A6;
 }
-#city {
+.italic {
   color: #7180B9;
   font-size: 1.1em;
   font-weight: 600;
 }
-#nationality{
+.bold {
   font-size: 1.1em;
   color: #7180B9;
   font-weight: bolder;
 }
-.item-weight-1 {
+.item-weight-1.odd-item {
   font-size: 2em;
 }
-.item-weight-2 {
+.item-weight-2.odd-item {
   font-size: 1.6em;
 }
-.item-weight-3 {
+.item-weight-3.odd-item {
   font-size: 1.2em;
 }
 .sub-title {
   font-size: 2em;
   background-color: #7180B9;
   padding: 10px;
-  border-radius: 10px;
 }
-  #profile-pic {
+#profile-pic {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-right: 15px;
+  margin-top: 10px;
+  padding: 7px;
+  background-color: #7180B9;
+  float: left;
 }
 .index-list {
   font-size: 1.5em;
@@ -52,7 +58,17 @@ body {
   border-radius: 5px;
   padding: 5px 10px;
   text-decoration: none;
+  margin: 5px;
 }
 .hyper-link {
   color: #DFF3E4;
+}
+.button a:hover{
+  font-size: 1.6em;
+  padding: 6px 11px;
+  color: #171738;
+  background-color: #DFF3E4;
+}
+.body-sub-pic {
+  clear: both;
 }
